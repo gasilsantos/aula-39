@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="minha_div" class="minhadiv">
+        <p>texto dentro da página</p>
+    </div>
+
+    <script>
+        document.getElementById("minha_div").addEventListener
+        ("mouseover", mouseEmcima)
+
+        document.getElementById("minha_div").addEventListener
+        ("mouseout", mouseFora)
+
+        function mouseEmcima(){
+            document.getElementById("minha_div").style.background = "cadeblue"
+            document.getElementById("minha_div").style.padding = "10px"
+            document.getElementById("minha_div").style.fontsize = "28px"
+
+
+        }
+
+        function mouseFora(){
+            document.getElementById("minha_div").style.background = "coral"
+            document.getElementById("minha_div").style.padding = "10px"
+            document.getElementById("minha_div").style.fontsize = "28px"
+        }
+    </script>
+
+</body>
+</html>

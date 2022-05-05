@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>informe seu nome</p>
+    <input type="text" id="nome" onblur="mudarcor()" onfocus = "voltacor()">
+
+    <script>
+
+    function mudarcor(){
+        document.getElementById("nome").style.background = "red"
+        document.getElementById("nome").style.borderRadius = "12px"
+
+    }
+
+    function voltacor(){
+        document.getElementById("nome").style.background = "blue"
+        document.getElementById("nome").style.borderRadius = "12px"
+    }
+
+    </script>
+</body>
+</html>
